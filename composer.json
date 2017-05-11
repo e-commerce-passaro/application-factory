@@ -1,0 +1,31 @@
+{
+  "name" : "e-commerce-passaro/application-factory",
+  "description" : "Fabrica os serviços oferecidos pela biblioteca e-commerce-passaro/application-factory",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/application-factory",
+  "time":"2017-05-11 18:28:02",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/application-factory/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/application-factory/wiki",
+  	"source":"https://github.com/e-commerce-passaro/application-factory/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+	"e-commerce-passaro/acesso-factory" : "0.0.2",
+	"e-commerce-passaro/application" : "0.0.1"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "application", "factory"],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Application\\Factory\\": "./src/Application"
+        }
+  }
+}
